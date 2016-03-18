@@ -1,0 +1,18 @@
+<ion-content class=' offer-page '>
+	<div class="logo-wrapper">
+		<a href="/#/search" class="logo"><span>TechAspect &amp; ElasticPath</span></a>
+	</div>
+	
+	<div class="offer-box" ng-click="openUrl()">
+		<h2>{{currentBeacon.owner}}</h2>
+		<p class="img"><img src="{{currentBeacon.url}}"></p>
+		<p class="promo-code">{{currentBeacon.message}} <br> <span>View product details</span></p>
+		<!-- <p class="promo-code">Applied code: <span >{{currentBeacon.promotionCode}}</span></p> -->
+
+	</div>
+	
+
+	<!-- <button class="button button-full button-dark" ng-click='showNotification()'>
+	  send notification
+	</button> -->
+</ion-content>
